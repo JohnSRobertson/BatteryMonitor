@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+## JSR Additions
+# dont place the wifi and smtp login info in git.  Generic credentials.h was stored once and then added here to prevent further updates
+credentials.h
+
 # User-specific files
 *.rsuser
 *.suo
